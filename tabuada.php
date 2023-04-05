@@ -8,8 +8,17 @@
 </head>
 <body>
     <?php
-    echo ("EXEMPLO FEITO NO PHP");
-    
+    $nome = "Gabriel do Senai";
+    $resultado = (2+1)*5;
+    echo (
+    "EXEMPLO FEITO NO PHP
+    <br>
+    o cálculo de $resultado
+    linha 2
+    Meu nome é $nome
+    "
+    );
+   
     ?>
 </body>
 </html>
